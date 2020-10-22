@@ -4,20 +4,6 @@
 using std::vector;
 using std::pair;
 
-/*
-* Coursera/Advanced Algorithms and Complexity/Week 1/Problem 3(advanced):
-* Stock Charts (maximum flow and path cover, etc)
-* Author: Ayran Olckers
-* Website https://ayran.dev
-* Respect Coursera Honor Code
-* Copyright © 2019. All rights reserved
-*
-*/
-
-/*
- * Useful to read: http://mradwan.github.io/algorithms/2014/05/02/flows-cuts-and-matchings/
-*/
-
 void explore(int v,vector<vector<int> > &adj,vector<bool> &visited){
   visited[v] = true;
   for(size_t i = 0; i < adj[v].size(); i++){
