@@ -4,16 +4,6 @@
 #include <stdexcept>
 #include <vector>
 
-/*********************************
-******                      ******
-***        Ayran Olckers       ***
-**                              **
-**            08/2019           **
-******                      ******
-**********************************/
-
-
-// Class for directed Graphs
 class DiGraph {
     std::vector<std::vector<int>> adj;
     std::vector<std::vector<int>> _reverseadj;
