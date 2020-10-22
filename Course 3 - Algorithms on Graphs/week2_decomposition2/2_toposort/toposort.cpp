@@ -3,17 +3,6 @@
 #include <stack>
 #include <stdexcept>
 #include <vector>
-
-/*********************************
-******                      ******
-***        Ayran Olckers       ***
-**                              **
-**            08/2019           **
-******                      ******
-**********************************/
-
-
-// Class for directed Graphs
 class DiGraph {
     std::vector<std::vector<int>> adj;
     size_t _size{0};
